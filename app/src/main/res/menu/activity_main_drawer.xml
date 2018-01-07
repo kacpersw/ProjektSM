@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <item android:title="@string/reservations">
+        <menu>
+            <item
+                android:id="@+id/reservationList"
+                android:icon="@drawable/ic_list"
+                android:title="@string/list_with_reservations" />
+        </menu>
+    </item>
+
+    <item android:title="@string/rooms">
+        <menu>
+            <item
+                android:id="@+id/add_room"
+                android:icon="@drawable/ic_add"
+                android:title="@string/add_a_room" />
+            <item
+                android:id="@+id/list_rooms"
+                android:icon="@drawable/ic_list"
+                android:title="@string/select_a_room" />
+        </menu>
+    </item>
+
+    <item android:title="@string/settings">
+        <menu>
+            <item
+                android:id="@+id/nav_logout"
+                android:icon="@drawable/ic_menu_share"
+                android:title="@string/log_out" />
+            <item
+                android:id="@+id/exit"
+                android:icon="@drawable/ic_exit"
+                android:title="@string/exit" />
+        </menu>
+    </item>
+
+</menu>
